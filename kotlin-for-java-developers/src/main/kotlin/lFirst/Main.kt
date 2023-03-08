@@ -1,7 +1,5 @@
 package lFirst
 
-import lSecond.Example
-
 fun main(args: Array<String>) {
     println("Hello World!")
 
@@ -14,7 +12,7 @@ fun main(args: Array<String>) {
     val forExample3 = forExample3("Alisa", 20)
     println(forExample3)
     val forExample4 = forExample4();
-    println(forExample4)
+    println(forExample4.toString())
 }
 
 fun area(width: Int, height: Int) {
