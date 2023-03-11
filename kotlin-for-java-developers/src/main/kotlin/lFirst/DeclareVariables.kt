@@ -1,18 +1,26 @@
 package lFirst
 
+import lombok.Data
+
+
+@Data
 class DeclareVariables {
     private lateinit var name: String
     private lateinit var notice: String
 
-    fun setName(name: String){
-        this.name=name
+    fun setName(namex: String) {
+        this.name = namex
     }
-    
+
+    fun setNotice(noticex: String) {
+        this.notice = noticex
+    }
+
     fun getName(): String {
-        return name
+        return this.name
     }
 
     fun getNotice(): String {
-        return notice
+        return this.notice
     }
 }

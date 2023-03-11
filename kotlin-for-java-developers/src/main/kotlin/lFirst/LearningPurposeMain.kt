@@ -14,9 +14,15 @@ fun main(args: Array<String>) {
     val message: String = "John"
     println(message)
 
-    val name1 = DeclareVariables().getName()
-    val notice = DeclareVariables().getNotice()
+    val declareVariables = DeclareVariables()
+
+    declareVariables.setName("Alisaaa")
+    declareVariables.setNotice("Aslannn")
+
+    val name1 = declareVariables.getName()
+    val notice = declareVariables.getNotice()
     println("name=$name1,notice=$notice")
+
 }
 
 
