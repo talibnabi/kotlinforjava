@@ -16,6 +16,7 @@ fun main(args: Array<String>) {
     val forExample5 = forExample5()
     val forExample6 = forExample6()
     println("$forExample5,$forExample6")
+    ForSolution().main()
 }
 
 fun area(width: Int, height: Int) {
