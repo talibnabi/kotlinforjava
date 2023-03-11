@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
     val name1 = declareVariables.getName()
     val notice = declareVariables.getNotice()
     println("name=$name1,notice=$notice")
-
+    
 }
 
 
