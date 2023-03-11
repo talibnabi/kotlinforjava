@@ -36,6 +36,14 @@ fun forExample4(): Example {
     return Example("Alisa", "Aslan", 20)
 }
 
+fun forExample5(): Char {
+    return '4'
+}
+
+fun forExample6(): Boolean {
+    return true;
+}
+
 
 
 
