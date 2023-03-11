@@ -1,9 +1,7 @@
 package lFirst
 
-import lombok.Data
 
 
-@Data
 class DeclareVariables {
     private lateinit var name: String
     private lateinit var notice: String
