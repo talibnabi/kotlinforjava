@@ -2,6 +2,7 @@ package lFirst
 
 
 class LearningPurpose {
+
     private var name: String = "Alisa"
     private var surname: String = "Aslan"
     private var age: Int = 22
